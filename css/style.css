@@ -90,6 +90,8 @@ template {
 
 a {
   background: transparent;
+  color: #fff;
+  text-decoration: none;
 }
 
 /**
@@ -435,9 +437,512 @@ th {
  * Main WebProject styling inc media queries *
  * ========================================= *
  * * * * * * * * * * * * * * * * * * * * * * */
+body {
+    color: #fff;
+    background: #014633;
+}
+
+.headBar {
+    max-width: 1150px;
+}
+
+.headBar .headBar_in {
+    overflow: hidden;
+    background: #00300a;
+}
+
+.headBar .headBar_in img {
+    float: left;
+}
+
+.headBar .headBar_in .langNav {
+    display: table;
+    float: right;
+    height: 120px;
+    margin-right: 50px;
+}
+
+.headBar .headBar_in .langNav ul {
+    display: table-cell;
+    padding: 0;
+    vertical-align: middle;
+    list-style: none;
+}
+
+.headBar .headBar_in .langNav ul li {
+    display: inline-block;
+    padding-right: 5px;
+    color: #fff;
+}
+
+.mainBlock {
+}
+
+.mainBlock .row > div {
+    float: left;
+    position: relative;
+    padding: 12px;
+    background-position: center center;
+    background-size: 92% 92%; /* For Safari 3.1 to 6.0 */ 
+}
+
+.mainBlock .row > div a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.mainBlock .row div h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 38px;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.mainBlock .row {
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+.mainBlock .slider {
+    height: 570px;
+    overflow: hidden;
+}
+
+.mainBlock .h1 {
+}
+
+.mainBlock .blWide {
+    height: 285px;
+}
+
+.mainBlock .blSmall {
+    height: 285px;
+}
+
+.mainBlock .poly {
+    background: url(../img/pol.jpg) no-repeat;
+}
+
+.mainBlock .design {
+    background: url(../img/des.jpg) no-repeat;
+}
+
+.mainBlock .adv {
+    background: url(../img/ext.jpg) no-repeat;
+    background-size: 96%!important;
+}
+
+.mainBlock .pint {
+    background: url(../img/print.jpg) no-repeat;
+    background-size: 95%!important;
+}
+
+.mainBlock .aident {
+    background: url(../img/ai.jpg) no-repeat;
+}
+
+.mainBlock .prod {
+    background: url(../img/pres.jpg) no-repeat;
+}
+
+.mainBlock .auto {
+    background: url(../img/auto.jpg) no-repeat;
+}
+
+.mainBlock .textile {
+    background: url(../img/tex.jpg) no-repeat;
+}
+
+.mainBlock .inter {
+    background: url(../img/int.jpg) no-repeat;
+}
+
+.mainBlock .pack {
+    background: url(../img/pack.jpg) no-repeat;
+}
+
+.mainBlock .blBrand {
+    width: 100%;
+    height: 285px;
+    background: url(../img/print.jpg) no-repeat;
+    background-size: 98%!important;
+}
+
+.mainBlock .poly:hover {
+    background-image: url(../img/pol_h.jpg);
+}
+
+.mainBlock .design:hover {
+    background-image: url(../img/des_h.jpg);
+}
+
+.mainBlock .adv:hover {
+    background-image: url(../img/ext_h.jpg);
+    background-size: 96%!important;
+}
+
+.mainBlock .pint:hover {
+    background-image: url(../img/print_h.jpg);
+    background-size: 96%!important;
+}
+
+.mainBlock .aident:hover {
+    background-image: url(../img/ai_h.jpg);
+}
+
+.mainBlock .prod:hover {
+    background-image: url(../img/pres_h.jpg);
+}
+
+.mainBlock .auto:hover {
+    background-image: url(../img/auto_h.jpg);
+}
+
+.mainBlock .textile:hover {
+    background-image: url(../img/tex_h.jpg);
+}
+
+.mainBlock .inter:hover {
+    background-image: url(../img/int_h.jpg);
+}
+
+.mainBlock .pack:hover {
+    background-image: url(../img/pack_h.jpg);
+}
+
+.mainBlock .blBrand:hover {
+    background-image: url(../img/print_h.jpg);
+}
+
+.mainBlock div:hover h1 {
+    display: none;
+}
+
+.contacts {
+    max-width: 1150px;
+}
+
+.contacts_in {
+    padding: 10px 10px 40px 10px;
+    overflow: hidden;
+    background: #003314;
+}
+
+.contacts .contactsMain {
+}
+
+.contacts .contactsMain h3 {
+    padding: 6px 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #226637;
+}
+
+.contacts .contactsMain h4 {
+    padding-bottom: 6px;
+}
+
+.contacts .contactsMain hr {
+    padding-bottom: 1px;
+    border: 0;
+}
+
+.contacts .contactsMain h4 i {
+    padding: 2px 12px;
+    background: url(../img/cont.png) no-repeat;
+}
+
+.contacts .contactsMain h4 .tel {
+}
+
+.contacts .contactsMain h4 .mob {
+    background-position: -25px;
+}
+
+.contacts .contactsMain h4 .add {
+    background-position: -50px;
+}
+
+.contacts .contactsMain h4 .mail {
+    background-position: -75px;
+}
+
+.contacts .contactsSocial {
+    text-align: right;
+}
+
+.contacts .contactsSocial a {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 30px 30px;
+    background: url(../img/soc.png) no-repeat;
+}
+
+.contacts .contactsSocial a.in {
+    background-position: 5px;
+}
+
+.contacts .contactsSocial a.tw {
+    background-position: -95px;
+}
+
+.contacts .contactsSocial a.vk {
+    background-position: -195px;
+}
+
+.contacts .contactsSocial a.fb {
+    background-position: -295px;
+}
+
+
+/*=====================================
+=          responsive classes         =
+=====================================*/
+@media(max-width:767px) {
+    .headBar,
+    .headBar .headBar_in {
+        width: 100%;
+        margin: 0;
+        padding: 0!important;
+    }
+
+    .headBar .headBar_in img {
+        display: block;
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 463px;
+    }
+
+    .headBar .headBar_in .langNav {
+        float: none;
+        height: 30px;
+        margin: 0 auto;
+    }
+
+    .mainBlock .row > div {
+        display: block;
+        float: none;
+        clear: both;
+        width: 260px;
+        margin: 0 auto;
+        text-align: center;
+        background-size: auto 260px;
+    }
+
+    .mainBlock .row > div a {
+        box-sizing: border-box;
+        width: 230px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mainBlock .slider {
+        width: 100%!important;
+        height: 100%;
+    }
+
+    .mainBlock .blWide a {
+        height: 110px!important;
+    }
+
+    .mainBlock .blWide {
+        height: 100%;
+    }
+
+    .mainBlock .blBrand a {
+        height: 110px!important;
+    }
+
+    .mainBlock .blBrand {
+        height: 100%;
+    }
+
+    .mainBlock .row div h1 {
+        right: 0;
+        bottom: 10px;
+        left: 0;
+        padding: 0 10px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .contacts {
+        margin-top: 14px;
+    }
+
+    .contacts .contactsSocial {
+        text-align: center;
+    }
+
+    .contacts .contactsSocial a {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .headBar,
+    .headBar .headBar_in {
+        max-width: 700px;
+        margin: 0;
+        padding: 0!important;
+    }
+
+    .headBar .headBar_in img {
+    }
+
+    .headBar .headBar_in .langNav {
+    }
+
+    .mainBlock .row > div {
+        display: block;
+        width: 360px;
+        margin: 0 auto;
+        text-align: center;
+        background-size: 330px;
+    
+        height: 360px;
+}
+
+    .mainBlock .row > div a {
+        box-sizing: border-box;
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    
+}
+
+    .mainBlock .slider {
+        width: 100%!important;
+        height: 570px!important;
+    }
+
+    .mainBlock .blWide a {
+        height: 110px!important;
+    }
+
+    .mainBlock .blWide {
+    width: 100%!important;
+    }
+
+    .mainBlock .blBrand a {
+        height: 110px!important;
+    }
+
+    .mainBlock .blBrand {
+        width: 100%!important;
+    }
+
+    .mainBlock .row div h1 {
+        right: 0;
+        bottom: 10px;
+        left: 0;
+        padding: 0 10px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .contacts {
+        margin-top: 14px;
+    }
+
+    .contacts .contactsSocial {
+        text-align: center;
+    }
+
+    .contacts .contactsSocial a {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .headBar,
+    .headBar .headBar_in {
+        max-width: 920px;
+        margin: 0;
+        padding: 0!important;
+    }
+
+    .headBar .headBar_in img {
+    }
+
+    .headBar .headBar_in .langNav {
+    }
+
+    .mainBlock .row > div {
+        display: block;
+        width: 470px;
+        margin: 0 auto;
+        text-align: center;
+        background-size: 440px;
+    
+        height: 470px;
+}
+
+    .mainBlock .row > div a {
+        box-sizing: border-box;
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    
+}
+
+    .mainBlock .slider {
+        width: 100%!important;
+        height: 570px!important;
+    }
+
+    .mainBlock .blWide a {
+        height: 110px!important;
+    }
+
+    .mainBlock .blWide {
+    width: 100%!important;
+    }
+
+    .mainBlock .blBrand a {
+        height: 110px!important;
+    }
+
+    .mainBlock .blBrand {
+        width: 100%!important;
+    }
+
+    .mainBlock .row div h1 {
+        right: 0;
+        bottom: 10px;
+        left: 0;
+        padding: 0 10px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .contacts {
+        margin-top: 14px;
+    }
+
+    .contacts .contactsSocial {
+        text-align: center;
+    }
+
+    .contacts .contactsSocial a {
+    }
+}
 
 
 
+@media (min-width: 1200px) {
+ 
+}
+
+
+/*-----  End of responsive classes  ------*/
 
 /* * * * * * * * * * * * * * * * * * * * * * *
  * ========================================= *
