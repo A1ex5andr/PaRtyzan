@@ -481,7 +481,7 @@ body {
 .mainBlock .row > div {
     float: left;
     position: relative;
-    padding: 12px;
+    /* padding: 12px; */
     background-position: center center;
     background-size: 92% 92%; /* For Safari 3.1 to 6.0 */ 
 }
@@ -501,24 +501,30 @@ body {
 }
 
 .mainBlock .row {
-    /* padding: 0; */
-    /* margin: 0; */
+    padding: 0;
+    margin: 6px 0;
+    overflow: visible;
+    display: block;
 }
 
 .mainBlock .slider {
-    height: 570px;
+    height: 558px;
     overflow: hidden;
+    /* width: 564px; */
+    /* margin-left: 4px; */
+    padding: 9px 11px;
 }
 
 .mainBlock .h1 {
 }
 
 .mainBlock .blWide {
-    height: 285px;
+    height: 282px;
 }
 
 .mainBlock .blSmall {
-    height: 285px;
+    height: 288px;
+    margin-top: -3px;
 }
 
 .mainBlock .poly {
@@ -536,7 +542,7 @@ body {
 
 .mainBlock .pint {
     background: url(../img/print.jpg) no-repeat;
-    background-size: 95%!important;
+    background-size: 96%!important;
 }
 
 .mainBlock .aident {
@@ -568,6 +574,7 @@ body {
     height: 285px;
     background: url(../img/print.jpg) no-repeat;
     background-size: 98%!important;
+    margin: 3px 0 16px 0;
 }
 
 .mainBlock .poly:hover {
